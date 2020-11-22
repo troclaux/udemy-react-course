@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 export default function BotaoNavbar(props) {
     return (
-        <button>
+        <button onClick={props.}>
             {props.children}
         </button>
     )
